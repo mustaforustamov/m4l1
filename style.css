@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f0f0f, #1e1e2f);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+.container {
+  background: #fff;
+  color: #000;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+}
+
+.input-area button {
+  background: #3b4cca;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.input-area button:hover {
+  background: #1f27a8;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f5f5f5;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact .info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.contact .text h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.contact .text p {
+  margin: 0;
+  font-size: 13px;
+  color: gray;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+}
+
+.actions i {
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.actions .edit {
+  color: #1e40af;
+}
+
+.actions .edit:hover {
+  color: #3b82f6;
+}
+
+.actions .delete {
+  color: #b91c1c;
+}
+
+.actions .delete:hover {
+  color: #ef4444;
+}
